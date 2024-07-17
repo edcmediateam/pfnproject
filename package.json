@@ -1,0 +1,16 @@
+{
+  "name": "PFNPROJECT", // Replace with your desired project name
+  "version": "1.0.0",
+  "description": "penny for the neddy web application", // Optional description
+  "main": "index.js", // Entry point for your application
+  "scripts": {
+    "start": "node index.js", // Script to start your application
+    "test": "echo \"Error: No test specified\" && exit 1" // Placeholder test script (replace with your actual tests)
+  },
+  "keywords": [], // Optional keywords for your project
+  "author": "", // Optional author information
+  "license": "ISC", // You can choose a different license if needed
+  "dependencies": {
+    "express": "^4.19.2" // Express dependency with caret (^) for compatible updates
+  }
+}

@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build folders
+build/  # For Express
+dist/  # For React (if created manually)
+
+# IDE and OS specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage reports
+coverage/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Local configuration
+.env.local
+
+# Editor temporary files
+*.tmp
+*.swo
+
+# VSCode swap files
+*.swp
+
+# Typescript
+*.js.map
