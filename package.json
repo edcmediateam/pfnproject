@@ -1,16 +1,19 @@
 {
-  "name": "PFNPROJECT", // Replace with your desired project name
+  "name": "PFNPROJECT",
   "version": "1.0.0",
-  "description": "penny for the neddy web application", // Optional description
-  "main": "index.js", // Entry point for your application
+  "description": "penny for the neddy web application",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js", // Script to start your application
-    "test": "echo \"Error: No test specified\" && exit 1" // Placeholder test script (replace with your actual tests)
+    "start": "node index.js",
+    "test": "echo \"Error: No test specified\" && exit 1"
   },
-  "keywords": [], // Optional keywords for your project
-  "author": "", // Optional author information
-  "license": "ISC", // You can choose a different license if needed
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2" // Express dependency with caret (^) for compatible updates
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
